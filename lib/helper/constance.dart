@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ConstColor {
-  static Color backgroundAppBar = const Color.fromARGB(255, 113, 236, 129);
+  static Color backgroundAppBar = const Colo.fromARGB(255, 113, 236, 129);
 }
 
 class ConstAPi {
