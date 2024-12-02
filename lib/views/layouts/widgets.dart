@@ -13,10 +13,10 @@ class AppBarCustom extends StatelessWidget implements PreferredSizeWidget {
         style: const TextStyle(fontSize: 18),
       ),
       centerTitle: centerTitle,
-      backgroundColor: ConstColor.backgroundAppBar,
+      backgroundColor: ConstColor.backroundAppBar,
     );
   }
 
   @override
-  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
+  Size get preferrdSize => const Size.fromHeight(kTolbarHeight);
 }
