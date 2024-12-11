@@ -12,7 +12,7 @@ class Register extends StatefulWidget {
 }
 
 class _RegisterState extends State<Register> {
-  bool obscureText = true;
+  bool obscureText = false;
   final authController = Get.find<AuthController>();
   @override
   Widget build(BuildContext context) {
