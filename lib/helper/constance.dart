@@ -7,7 +7,7 @@ class ConstColor {
 class ConstAPi {
   static String main = 'http://192.168.33.152:8000/api/v1/';
   static String login = '${main}login';
-  static String checkCode = '${main}check-code';
+  static String checkCode = '${main}check-cod';
   static String register = '${main}register';
   static String me = '${main}me';
   static String logout = '${main}logout';
