@@ -34,7 +34,7 @@ class AuthController extends GetxController {
     var request = Request();
     var result = await request.postMethod(
         url: ConstAPi.checkCode, data: {"code": code, "token": token});
-    if (result.statusCode == 200) {
+    if (result.statusCode == ) {
       var body = result.data;
       if (body['ok'] == true) {
         this.code = code;
